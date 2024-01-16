@@ -1,6 +1,11 @@
-
+*{
+  font-family: sans-serif;
+}
+body{
+  background-image:"depositphotos_74929533-stock-photo-cooking-background.jpg";
+}
   h1 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
   }
   #para1 {
@@ -8,16 +13,16 @@
     color: rgb(255, 255, 255);
   }
   p {
-    font-family: verdana;
     font-size: 20px;
     display: flex;
   }
   section{
-    max-width: 800px;
+    max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #51edeb;
+    background-color: #00a19a;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255);
     border-radius: 8px;
   }
 
@@ -29,7 +34,7 @@
 
   header {
     background-color: #00a19a;
-    color: #80ff4e;
+    color: #000000;
     padding: 1em 0;
     width: 100%;
   }
@@ -39,12 +44,7 @@
     align-items: center;
   }
 
-  .menu {
-    display: grid;
-    grid-template-columns: auto auto;
-  }
-  
-  .menu h1 {
+  h1 {
     text-align: center;
   }
 .hero {
